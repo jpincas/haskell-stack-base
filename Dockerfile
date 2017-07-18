@@ -15,5 +15,17 @@ RUN stack install hedis
 RUN stack install uuid
 RUN stack install http-conduit
 RUN stack install warp
+RUN stack install bytestring
+RUN stack install either-unwrap
+RUN stack install text
+RUN stack install time
+RUN stack install split
+RUN stack install pwstore-fast
+RUN stack install MissingH
+RUN stack install http-types
+RUN stack install containers
+RUN stack install amqp
+RUN stack install directory
+RUN stack install process
 
 CMD ghc -v
