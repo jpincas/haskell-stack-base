@@ -27,5 +27,9 @@ RUN stack install containers
 RUN stack install amqp
 RUN stack install directory
 RUN stack install process
+RUN stack install mongoDB
+RUN stack install bson
+RUN stack install tasty
+RUN stack install tasty-hunit
 
 CMD ghc -v
